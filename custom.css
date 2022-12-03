@@ -15,6 +15,13 @@
 
 .banner {
   background: #a770ef;
-  background: -webkit-linear-gradient(to right, #6B0000, #FEE0E0, #FDA8A3);
-  background: linear-gradient(to right,  #6B0000, #FEE0E0, #FDA8A3);
+  background: -webkit-linear-gradient(to right, #9B0000, #FDA8A3);
+  background: linear-gradient(to right, #9B0000, #FDA8A3);
+}
+
+.about-banner {
+    height: 100vh;
+    background: url(img/about_banner.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
 }
