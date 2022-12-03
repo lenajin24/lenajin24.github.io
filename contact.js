@@ -7,11 +7,9 @@ function contact() {
 
 	myUrlWithParams.searchParams.append("subject", subject);
 	myUrlWithParams.searchParams.append("message", message);
-
-	let mail = document.createElement("email");
-	mail.href = myUrlWithParams.href;
-	mail.click();
-	console.log(mail.href)
+	console.log(myUrlWithParams.href)
+	window.location.href = myUrlWithParams.href
+	
 	alert("You should be presented a prompt to send the email. If it doesn't work, try allowing pop-up from this site!");
 };
 
