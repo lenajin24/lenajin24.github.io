@@ -5,7 +5,16 @@
   background-color: #FDE8E3;
   color: #8B0000;
 }
+#contact {
+  color: #8B0000;
+}
 #send {
   background-color: #FDE8E3;
   color: #8B0000;
+}
+
+.banner {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #6B0000, #FEE0E0, #FDA8A3);
+  background: linear-gradient(to right,  #6B0000, #FEE0E0, #FDA8A3);
 }
